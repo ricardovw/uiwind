@@ -1,6 +1,6 @@
 {
   "name": "uiwind",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A consumer for portable design systems made with tailwind css",
   "type": "module",
   "main": "lib/index.cjs",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "directory": "https://github.com/ricardovw/uiwind"
+    "url": "https://github.com/ricardovw/uiwind"
   },
   "author": "ricardovw",
   "license": "MIT",
