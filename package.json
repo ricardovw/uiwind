@@ -1,7 +1,7 @@
 {
   "name": "uiwind",
   "version": "0.1.1",
-  "description": "A consumer for portable design systems made with tailwind css",
+  "description": "A frontend consumer of portable design systems made with tailwind css",
   "type": "module",
   "main": "lib/index.cjs",
   "exports": {
@@ -20,8 +20,9 @@
   },
   "scripts": {
     "dr": "npm publish --dry-run",
-    "build": "rollup -c",
-    "pub": "npm publish --access public"
+    "pack": "rollup -c",
+    "push": "npm run pack && npm publish --access public",
+    "release": "npm run pack && npx changeset publish"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "rollup": "^4.27.3",
     "rollup-plugin-delete": "^2.1.0",
     "rollup-plugin-typescript2": "^0.36.0",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "@changesets/cli": "^2.27.7"
   }
 }
