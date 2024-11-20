@@ -1,8 +1,12 @@
 {
   "name": "uiwind",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A frontend consumer of portable design systems made with tailwind css",
-  "keywords": ["uiwind", "tailwind", "tailwindcss"],
+  "keywords": [
+    "uiwind",
+    "tailwind",
+    "tailwindcss"
+  ],
   "type": "module",
   "main": "lib/index.cjs",
   "exports": {
@@ -15,7 +19,9 @@
       "types": "./lib/types/index.d.ts"
     }
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "directories": {
     "lib": "lib"
   },
